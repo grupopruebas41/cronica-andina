@@ -1,0 +1,193 @@
+{
+    "date": "2026-10-13 20:15:42",
+    "php": "8.3.6",
+    "passed": 30,
+    "total": 30,
+    "performance": {
+        "avg_ms": 1.1,
+        "p95_ms": 2.4,
+        "max_ms": 2.6
+    },
+    "cases": [
+        {
+            "id": "CP-01",
+            "name": "El servicio responde (health check)",
+            "ok": true,
+            "ms": 0.6
+        },
+        {
+            "id": "CP-02",
+            "name": "El listado público muestra solo noticias publicadas",
+            "ok": true,
+            "ms": 153.9
+        },
+        {
+            "id": "CP-03",
+            "name": "La paginación calcula páginas y respeta el límite",
+            "ok": true,
+            "ms": 2.6
+        },
+        {
+            "id": "CP-04",
+            "name": "La búsqueda encuentra noticias por palabra",
+            "ok": true,
+            "ms": 1
+        },
+        {
+            "id": "CP-05",
+            "name": "El filtro por categoría devuelve solo esa sección",
+            "ok": true,
+            "ms": 0.9
+        },
+        {
+            "id": "CP-06",
+            "name": "El detalle de una noticia incrementa sus lecturas",
+            "ok": true,
+            "ms": 4.7
+        },
+        {
+            "id": "CP-07",
+            "name": "Una noticia inexistente devuelve 404 con mensaje claro",
+            "ok": true,
+            "ms": 1
+        },
+        {
+            "id": "CP-08",
+            "name": "Un borrador no es visible en el sitio público",
+            "ok": true,
+            "ms": 0.9
+        },
+        {
+            "id": "CP-09",
+            "name": "Inicio de sesión con credenciales válidas",
+            "ok": true,
+            "ms": 144.9
+        },
+        {
+            "id": "CP-10",
+            "name": "Contraseña incorrecta: 401 con mensaje genérico",
+            "ok": true,
+            "ms": 142.3
+        },
+        {
+            "id": "CP-11",
+            "name": "Las rutas de administración exigen sesión",
+            "ok": true,
+            "ms": 1.5
+        },
+        {
+            "id": "CP-12",
+            "name": "Crear noticia válida (201) con slug automático",
+            "ok": true,
+            "ms": 7.3
+        },
+        {
+            "id": "CP-13",
+            "name": "Validación: datos inválidos devuelven 422 con error por campo",
+            "ok": true,
+            "ms": 0.9
+        },
+        {
+            "id": "CP-14",
+            "name": "Accesibilidad: imagen sin texto alternativo es rechazada",
+            "ok": true,
+            "ms": 0.8
+        },
+        {
+            "id": "CP-15",
+            "name": "Seguridad: se eliminan etiquetas HTML (XSS)",
+            "ok": true,
+            "ms": 2.6
+        },
+        {
+            "id": "CP-16",
+            "name": "Publicar un borrador lo muestra en el sitio público",
+            "ok": true,
+            "ms": 5.1
+        },
+        {
+            "id": "CP-17",
+            "name": "Permisos: un editor no puede editar noticias ajenas",
+            "ok": true,
+            "ms": 1.9
+        },
+        {
+            "id": "CP-18",
+            "name": "Permisos: un editor no puede gestionar categorías ni usuarios",
+            "ok": true,
+            "ms": 1.7
+        },
+        {
+            "id": "CP-19",
+            "name": "Comentario válido queda pendiente y no se publica aún",
+            "ok": true,
+            "ms": 3.1
+        },
+        {
+            "id": "CP-20",
+            "name": "Comentario con correo inválido es rechazado (422)",
+            "ok": true,
+            "ms": 0.4
+        },
+        {
+            "id": "CP-21",
+            "name": "Anti-spam: el campo trampa bloquea bots",
+            "ok": true,
+            "ms": 0.3
+        },
+        {
+            "id": "CP-22",
+            "name": "Moderación: un comentario aprobado se vuelve visible",
+            "ok": true,
+            "ms": 2.9
+        },
+        {
+            "id": "CP-23",
+            "name": "Suscripción al boletín y control de duplicados",
+            "ok": true,
+            "ms": 4.7
+        },
+        {
+            "id": "CP-24",
+            "name": "Integridad: no se elimina una categoría con noticias",
+            "ok": true,
+            "ms": 6.6
+        },
+        {
+            "id": "CP-25",
+            "name": "Seguridad: inyección SQL en la búsqueda no altera la consulta",
+            "ok": true,
+            "ms": 0.9
+        },
+        {
+            "id": "CP-26",
+            "name": "Eficiencia: caché con ETag responde 304 sin cuerpo",
+            "ok": true,
+            "ms": 1.9
+        },
+        {
+            "id": "CP-27",
+            "name": "Eficiencia: respuestas grandes comprimidas con gzip",
+            "ok": true,
+            "ms": 1.3
+        },
+        {
+            "id": "CP-28",
+            "name": "Rendimiento: el listado responde en menos de 500 ms (promedio de 20)",
+            "ok": true,
+            "ms": 22.7
+        },
+        {
+            "id": "CP-29",
+            "name": "Cerrar sesión invalida el token",
+            "ok": true,
+            "ms": 2.9
+        },
+        {
+            "id": "CP-30",
+            "name": "Seguridad: bloqueo tras 5 intentos fallidos de inicio de sesión",
+            "ok": true,
+            "ms": 357.6
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+PRODUCTO ACADÉMICO N.º 2 - PRUEBAS Y CALIDAD DE SOFTWARE
+Proyecto: Crónica Andina - Blog de noticias autoadministrable (React + PHP)
+
+Integrantes participantes:
+
+N.º | Apellidos y nombres                        | Código de estudiante | Participación
+----+--------------------------------------------+----------------------+--------------
+ 1  | [Apellidos, Nombres]                       | [Código]             | 100 %
+
+Docente: [Nombre del docente]
+Sección / NRC: [NRC]
+Fecha de entrega: [dd/mm/2026]

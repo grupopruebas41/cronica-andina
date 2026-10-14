@@ -1,0 +1,505 @@
+{
+  "e2e": [
+    {
+      "id": "E2E-01",
+      "name": "La portada carga la noticia principal, las últimas y las más leídas",
+      "ok": true,
+      "ms": 598
+    },
+    {
+      "id": "E2E-02",
+      "name": "Navegación solo con teclado: «Saltar al contenido» es el primer foco",
+      "ok": true,
+      "ms": 302
+    },
+    {
+      "id": "E2E-03",
+      "name": "Abrir una noticia desde la portada muestra contenido, ruta y comentarios",
+      "ok": true,
+      "ms": 499
+    },
+    {
+      "id": "E2E-04",
+      "name": "La búsqueda encuentra «feria» y la tecla / enfoca el buscador",
+      "ok": true,
+      "ms": 397
+    },
+    {
+      "id": "E2E-05",
+      "name": "Comentario vacío: muestra errores claros y lleva el foco al primero",
+      "ok": true,
+      "ms": 367
+    },
+    {
+      "id": "E2E-06",
+      "name": "Comentario válido: aviso visual de moderación pendiente",
+      "ok": true,
+      "ms": 345
+    },
+    {
+      "id": "E2E-07",
+      "name": "Suscripción al boletín con validación",
+      "ok": true,
+      "ms": 346
+    },
+    {
+      "id": "E2E-08",
+      "name": "Login incorrecto muestra mensaje y login correcto abre el panel",
+      "ok": true,
+      "ms": 1302
+    },
+    {
+      "id": "E2E-09",
+      "name": "Flujo completo: escribir, publicar y ver la noticia en la portada",
+      "ok": true,
+      "ms": 1694
+    },
+    {
+      "id": "E2E-10",
+      "name": "Moderación: aprobar un comentario pendiente",
+      "ok": true,
+      "ms": 1336
+    },
+    {
+      "id": "E2E-11",
+      "name": "Eliminar pide confirmación; Esc cancela y devuelve el foco",
+      "ok": true,
+      "ms": 1262
+    },
+    {
+      "id": "E2E-12",
+      "name": "Un editor no ve las secciones exclusivas del administrador",
+      "ok": true,
+      "ms": 665
+    },
+    {
+      "id": "E2E-13",
+      "name": "Ajustes de lectura: texto al 150 %, alto contraste y modo oscuro",
+      "ok": true,
+      "ms": 1500
+    },
+    {
+      "id": "E2E-14",
+      "name": "Responsive: a 320 px de ancho no hay desplazamiento horizontal",
+      "ok": true,
+      "ms": 2023
+    },
+    {
+      "id": "E2E-15",
+      "name": "Zoom de texto al 200 % (WCAG 1.4.4) sin pérdida de contenido",
+      "ok": true,
+      "ms": 137
+    },
+    {
+      "id": "E2E-16",
+      "name": "Ahorro de datos: no se descargan imágenes y se conserva su descripción",
+      "ok": true,
+      "ms": 715
+    },
+    {
+      "id": "E2E-17",
+      "name": "Ruta inexistente muestra página 404 con salida clara",
+      "ok": true,
+      "ms": 161
+    }
+  ],
+  "accessibility": [
+    {
+      "page": "Portada",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 71,
+      "minContrast": 7.31,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Noticia",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 70,
+      "minContrast": 7.33,
+      "targets": 12,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Sección",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 44,
+      "minContrast": 7.31,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Búsqueda",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 42,
+      "minContrast": 7.31,
+      "targets": 8,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Declaración de accesibilidad",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 55,
+      "minContrast": 7.33,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Ingreso",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 47,
+      "minContrast": 7.33,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: resumen",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 50,
+      "minContrast": 7.78,
+      "targets": 3,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: noticias",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 93,
+      "minContrast": 5.68,
+      "targets": 25,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: editor",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 48,
+      "minContrast": 5.68,
+      "targets": 13,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: comentarios",
+      "theme": "Claro",
+      "violations": [],
+      "textChecked": 36,
+      "minContrast": 7.76,
+      "targets": 12,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Portada",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 71,
+      "minContrast": 7.34,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Noticia",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 70,
+      "minContrast": 7.76,
+      "targets": 12,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Sección",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 44,
+      "minContrast": 7.34,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Búsqueda",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 42,
+      "minContrast": 7.76,
+      "targets": 8,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Declaración de accesibilidad",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 55,
+      "minContrast": 7.76,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Ingreso",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 47,
+      "minContrast": 7.76,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: resumen",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 50,
+      "minContrast": 8.21,
+      "targets": 3,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: noticias",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 93,
+      "minContrast": 7.34,
+      "targets": 25,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: editor",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 48,
+      "minContrast": 7.34,
+      "targets": 13,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: comentarios",
+      "theme": "Oscuro",
+      "violations": [],
+      "textChecked": 36,
+      "minContrast": 7.34,
+      "targets": 12,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Portada",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 71,
+      "minContrast": 7.76,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Noticia",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 70,
+      "minContrast": 7.76,
+      "targets": 12,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Sección",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 44,
+      "minContrast": 7.76,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Búsqueda",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 42,
+      "minContrast": 7.76,
+      "targets": 8,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Declaración de accesibilidad",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 55,
+      "minContrast": 7.76,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Ingreso",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 47,
+      "minContrast": 7.76,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: resumen",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 50,
+      "minContrast": 8.66,
+      "targets": 3,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: noticias",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 93,
+      "minContrast": 5.68,
+      "targets": 25,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: editor",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 48,
+      "minContrast": 5.68,
+      "targets": 13,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: comentarios",
+      "theme": "Alto contraste",
+      "violations": [],
+      "textChecked": 36,
+      "minContrast": 7.76,
+      "targets": 12,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Portada",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 71,
+      "minContrast": 7.76,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Noticia",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 70,
+      "minContrast": 7.76,
+      "targets": 12,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Sección",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 44,
+      "minContrast": 7.76,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Búsqueda",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 42,
+      "minContrast": 7.76,
+      "targets": 8,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Declaración de accesibilidad",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 55,
+      "minContrast": 7.76,
+      "targets": 6,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Ingreso",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 47,
+      "minContrast": 7.76,
+      "targets": 10,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: resumen",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 50,
+      "minContrast": 8.66,
+      "targets": 3,
+      "smallestTarget": 44
+    },
+    {
+      "page": "Panel: noticias",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 93,
+      "minContrast": 7.82,
+      "targets": 25,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: editor",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 48,
+      "minContrast": 7.82,
+      "targets": 13,
+      "smallestTarget": 40
+    },
+    {
+      "page": "Panel: comentarios",
+      "theme": "Alto contraste oscuro",
+      "violations": [],
+      "textChecked": 36,
+      "minContrast": 8.66,
+      "targets": 12,
+      "smallestTarget": 40
+    }
+  ],
+  "performance": {
+    "Escritorio, sin limitación": {
+      "fcp": 140,
+      "lcp": 140,
+      "cls": 0.011,
+      "domContentLoaded": 73,
+      "heapMB": 9.5,
+      "readyMs": 683,
+      "transferKB": 263.6,
+      "requests": 11
+    },
+    "Móvil gama baja (CPU ×4, 3G rápido)": {
+      "fcp": 2052,
+      "lcp": 2472,
+      "cls": 0.02,
+      "domContentLoaded": 1893,
+      "heapMB": 9.5,
+      "readyMs": 3042,
+      "transferKB": 262.7,
+      "requests": 10
+    },
+    "Móvil muy limitado (CPU ×6, 3G lento)": {
+      "fcp": 6784,
+      "lcp": 7804,
+      "cls": 0.02,
+      "domContentLoaded": 6555,
+      "heapMB": 9.5,
+      "readyMs": 8447,
+      "transferKB": 263.6,
+      "requests": 11
+    },
+    "codeSplitting": {
+      "publicScripts": 2,
+      "note": "El panel de administración no se descarga en el sitio público."
+    }
+  },
+  "date": "2026-10-14T01:15:34.418Z"
+}
